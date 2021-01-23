@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+run {
+    mainClassName = "Main"
+    standardInput = System.in
+}
+
+dependencies {
+    compile 'org.openjfx:javafx-swing:15'
+    compile 'com.intellij:forms_rt:7.0.3'
+}
+
+test {
+    useJUnitPlatform()
+}

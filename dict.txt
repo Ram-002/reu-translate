@@ -1,0 +1,6 @@
+hello привет
+world мир
+test тест
+apple яблоко
+banana банан
+example пример
